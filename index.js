@@ -15,4 +15,4 @@ app.use("/api/category", category_routes);
 app.use("/api/dishes", dishes_routes);
 app.use("/api/orders", orders_routes);
 app.use("/static", express.static("static"));
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 5002);
